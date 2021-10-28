@@ -4,72 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Matthew Merrick's Blog</title>
 </head>
 
 <body>
     <header>
-        <h1>Matthew Merrick's Blog</h1>
-        <p>Welcome to my blog!</p>
+        <div class="header-container">
+            <h1 class="intro">Matthew Merrick's Blog</h1>
+            <p class="intro">Welcome to my blog!</p>
+        </div>
    
-    <nav>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About me</a></li>
-            <li><a href="contact.html">Contact</a></li>
-     </ul>
-    </nav>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About me</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-    </header>  
+    </header>
 
-   <form>
-       <label>Contact me:</label>
+    <div class="form-wrapper">
+        <section>
+            <h1>Contact me:</h1>
+            <form class="form">
+                
 
-       <br>
-       <br>
-       <br>
-       <br>
 
-       <label>Name:
-           <input type="text">
-       </label>
+                <label>Name:
+                <input type="text" required placeholder="Enter name">
+                </label>
 
-       <br>
-       <br>
-       <br>
 
-       <label>Email:
-           <input type="text">
-        </label>
-        <br>
-        <br>
-        <br>
+                <label>Email:
+                <input type="text" required placeholder="Enter Email">
+                </label>
+            
 
-        <label>Reason for contacting:
-            <select name="Reason for contacting">
-                <option value="Option 1">Choose one</option>
-                <option value="Option 2">Saying hi</option>
-                <option value="Option 3">Looking for a contractor</option>
-                <option value="Option 4">Interested in an interview</option>
-                </select>
-        </label>
-
-        <br>
-        <br>
-        <br>
-
-        <label>Comment:
-        <textarea cols="100000"></textarea>
-        </label>
-        <br>
-        <br>
-        <br>
-
-        <button>Submit</button>
+                <label>Reason for contacting:
+                    <select name="Reason for contacting">
+                        <option value="Option 1">Choose one</option>
+                        <option value="Option 2">Saying hi</option>
+                        <option value="Option 3">Looking for a contractor</option>
+                        <option value="Option 4">Interested in an interview</option>
+                    </select>
+                </label>
 
         
 
-    </form>
+                <label>Comment:
+                <textarea width="100px"></textarea>
+                </label>
+                
+                
+                <button class="bttn">Submit</button>
+                
+
+                
+
+            </form>
+        </section>
+    </div>
 
 
 </body>
