@@ -6,81 +6,55 @@ body{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    background-color: gray;
 }
 header{
     display:flex;
-    width:90%;
-    margin:auto;
+    justify-content: space-between;
     align-content:center;
-    justify-content:space-between;
-    background-color:black;
+    background-color: black;
+}
+
+.header-container{
+    margin-left:20px;
+}
+
+.header-container h1{
     color:white;
-    height:20vh;
+    font-size:1.5rem;
 }
 
-.intro{
-    margin:10px;
-    padding-left: 10px;
-}
-
-
-.nav-links{
-    list-style:none;
-}
-.nav-links li{
-    display:inline-block;
-    list-style:none;
-    padding-right: 20px;
-}
-
-.nav-link{
-    text-decoration:none;
+.header-container p{
     color:white;
-    font-size:1.1em;
+}
+
+
+.navigation-container li{
+    list-style:none;
+    display:inline-flex;
+    margin-right:20px;
 
 }
 
-.nav-link:hover{
-    background-color:red;
+.navigation-container li a{
+    text-decoration: none;
+    color:white;
+    transition: 1s ease;
+}
+
+.navigation-container li a:hover{
+    color:red;
 }
 
 .blog-wrapper{
-    width:90%;
-    height:80vh;
-    margin:auto;
-    padding-top: 10px;
-}
-
-.blog-post1{
-    font-weight: 400px;
-}
-#blog-post2 h2{
-    color:red;
-    font-weight: 400px;
-}
-
-.form-wrapper{
-    width:90%;
-    height:80vh;
-    margin:auto;
     display:flex;
-    
-}
-
-.form{
-    display:flex;
-    margin-top:50x;
-    flex-direction:column;
-}
-
-.form label{
-    margin-bottom:20px;
+    justify-content: center;
+    align-content:center;
 }
 
 
-.bttn{
-    width:65px;
-}
+
+
 
 
 
