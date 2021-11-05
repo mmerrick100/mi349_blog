@@ -87,6 +87,7 @@ header{
 #blog-post2 p img{
     float:left;
     margin-right:20px;
+    padding-bottom: 20px;
 }
 
 
@@ -123,6 +124,14 @@ header{
 
 .form label{
     padding-bottom: 20px;
+}
+
+.caption{
+    float:left;
+    margin: 0px 15px 15px 20px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align:center;
 }
 
 
